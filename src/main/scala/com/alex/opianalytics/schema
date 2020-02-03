@@ -1,0 +1,103 @@
+ |-- producto: string (nullable = true)
+ |-- presentacion: string (nullable = true)
+ |-- marca: string (nullable = true)
+ |-- categoria: string (nullable = true)
+ |-- catalogo: string (nullable = true)
+ |-- precio: string (nullable = true)
+ |-- fechaRegistro: string (nullable = true)
+ |-- cadenaComercial: string (nullable = true)
+ |-- giro: string (nullable = true)
+ |-- nombreComercial: string (nullable = true)
+ |-- direccion: string (nullable = true)
+ |-- estado: string (nullable = true)
+ |-- municipio: string (nullable = true)
+ |-- latitud: string (nullable = true)
+ |-- longitud: string (nullable = true)
+
+
+
+ +--------------------+--------------------+------------------+----------------+----------------+------+--------------------+------------------+--------------------+--------------------+--------------------+----------------+--------------------+--------+----------+
+ |            producto|        presentacion|             marca|       categoria|        catalogo|precio|       fechaRegistro|   cadenaComercial|                giro|     nombreComercial|           direccion|          estado|           municipio| latitud|  longitud|
+ +--------------------+--------------------+------------------+----------------+----------------+------+--------------------+------------------+--------------------+--------------------+--------------------+----------------+--------------------+--------+----------+
+ |CUADERNO FORMA IT...|96 HOJAS PASTA DU...|          ESTRELLA|MATERIAL ESCOLAR|UTILES ESCOLARES|  25.9|2011-05-18 00:00:...|ABASTECEDORA LUMEN|          PAPELERIAS|ABASTECEDORA LUME...|CANNES No. 6 ESQ....|DISTRITO FEDERAL|TLALPAN          ...|19.29699|-99.125417|
+ |            CRAYONES|CAJA 12 CERAS. JU...|           CRAYOLA|MATERIAL ESCOLAR|UTILES ESCOLARES|  27.5|2011-05-18 00:00:...|ABASTECEDORA LUMEN|          PAPELERIAS|ABASTECEDORA LUME...|CANNES No. 6 ESQ....|DISTRITO FEDERAL|TLALPAN          ...|19.29699|-99.125417|
+ |            CRAYONES|CAJA 12 CERAS. TA...|           CRAYOLA|MATERIAL ESCOLAR|UTILES ESCOLARES|  13.9|2011-05-18 00:00:...|ABASTECEDORA LUMEN|          PAPELERIAS|ABASTECEDORA LUME...|CANNES No. 6 ESQ....|DISTRITO FEDERAL|TLALPAN          ...|19.29699|-99.125417|
+ |   COLORES DE MADERA|CAJA 12 PIEZAS LA...|          PINCELIN|MATERIAL ESCOLAR|UTILES ESCOLARES|  46.9|2011-05-18 00:00:...|ABASTECEDORA LUMEN|          PAPELERIAS|ABASTECEDORA LUME...|CANNES No. 6 ESQ....|DISTRITO FEDERAL|TLALPAN          ...|19.29699|-99.125417|
+ |         COLOR LARGO|CAJA 36 PIEZAS. C...|           CRAYOLA|MATERIAL ESCOLAR|UTILES ESCOLARES|   115|2011-05-18 00:00:...|ABASTECEDORA LUMEN|          PAPELERIAS|ABASTECEDORA LUME...|CANNES No. 6 ESQ....|DISTRITO FEDERAL|TLALPAN          ...|19.29699|-99.125417|
+ |           BOLIGRAFO|BLISTER 3 PIEZAS....|  BIC. CRISTAL GEL|MATERIAL ESCOLAR|UTILES ESCOLARES|  32.5|2011-05-18 00:00:...|ABASTECEDORA LUMEN|          PAPELERIAS|ABASTECEDORA LUME...|CANNES No. 6 ESQ....|DISTRITO FEDERAL|TLALPAN          ...|19.29699|-99.125417|
+ |      CINTA ADHESIVA|BOLSA 1 PIEZA. 12...|    SCOTCH 3M. 600|MATERIAL ESCOLAR|UTILES ESCOLARES|     9|2011-05-18 00:00:...|ABASTECEDORA LUMEN|          PAPELERIAS|ABASTECEDORA LUME...|CANNES No. 6 ESQ....|DISTRITO FEDERAL|TLALPAN          ...|19.29699|-99.125417|
+ |   COLORES DE MADERA|CAJA 24 PIEZAS. L...|    KORES. KOLORES|MATERIAL ESCOLAR|UTILES ESCOLARES|  95.9|2011-05-18 00:00:...|ABASTECEDORA LUMEN|          PAPELERIAS|ABASTECEDORA LUME...|CANNES No. 6 ESQ....|DISTRITO FEDERAL|TLALPAN          ...|19.29699|-99.125417|
+ |            CRAYONES|CAJA 24 CERAS. TA...|PAPER MATE. CARMEN|MATERIAL ESCOLAR|UTILES ESCOLARES|  23.2|2011-05-18 00:00:...|ABASTECEDORA LUMEN|          PAPELERIAS|ABASTECEDORA LUME...|CANNES No. 6 ESQ....|DISTRITO FEDERAL|TLALPAN          ...|19.29699|-99.125417|
+ |  PAN BLANCO BOLILLO|               PIEZA|               S/M|             PAN|         BASICOS|   1.2|2011-01-10 00:00:...|COMERCIAL MEXICANA|TIENDA DE AUTOSER...|COMERCIAL MEXICAN...|AV. LAGO DE GUADA...|          MÉXICO|ATIZAPAN         ...|      NA|        NA|
+ +--------------------+--------------------+------------------+----------------+----------------+------+--------------------+------------------+--------------------+--------------------+--------------------+----------------+--------------------+--------+----------+
+ only showing top 10 rows
+
+
+
++--------------------+-------+
+|            producto| values|
++--------------------+-------+
+|            REFRESCO|1247981|
+|   DETERGENTE P/ROPA| 990122|
+|                 FUD| 933410|
+|LECHE ULTRAPASTEU...| 886716|
+|             SHAMPOO| 745467|
+|    JABON DE TOCADOR| 744914|
+|      CHILES EN LATA| 724862|
+|            MAYONESA| 697586|
+|             YOGHURT| 632362|
+|         DESODORANTE| 623684|
++--------------------+-------+
+only showing top 10 rows
+
+
++--------------------+---------------+
+|     cadenaComercial|Total_productos|
++--------------------+---------------+
+|             SORIANA|           1059|
+|            WAL-MART|           1051|
+|MEGA COMERCIAL ME...|           1049|
+|  COMERCIAL MEXICANA|           1036|
+|            CHEDRAUI|           1026|
++--------------------+---------------+
+
+
+
+----------------------------Ejercicio 2 -------------
+
+
+root
+ |-- airline_id: integer (nullable = true)
+ |-- name: string (nullable = true)
+ |-- alias: string (nullable = true)
+ |-- iata: string (nullable = true)
+ |-- icao: string (nullable = true)
+ |-- callsign: string (nullable = true)
+ |-- country: string (nullable = true)
+ |-- active: string (nullable = true)
+
+
+ +----------+--------------------+-----+----+----+--------------+--------------+------+
+ |airline_id|                name|alias|iata|icao|      callsign|       country|active|
+ +----------+--------------------+-----+----+----+--------------+--------------+------+
+ |        -1|             Unknown|   \N|   -| N/A|            \N|            \N|     Y|
+ |         1|      Private flight|   \N|   -| N/A|          null|          null|     Y|
+ |         2|         135 Airways|   \N|null| GNL|       GENERAL| United States|     N|
+ |         3|       1Time Airline|   \N|  1T| RNX|       NEXTIME|  South Africa|     Y|
+ |         4|2 Sqn No 1 Elemen...|   \N|null| WYT|          null|United Kingdom|     N|
+ |         5|     213 Flight Unit|   \N|null| TFU|          null|        Russia|     N|
+ |         6|223 Flight Unit S...|   \N|null| CHD|CHKALOVSK-AVIA|        Russia|     N|
+ |         7|   224th Flight Unit|   \N|null| TTF|    CARGO UNIT|        Russia|     N|
+ |         8|         247 Jet Ltd|   \N|null| TWF|  CLOUD RUNNER|United Kingdom|     N|
+ |         9|         3D Aviation|   \N|null| SEC|       SECUREX| United States|     N|
+ |        10|         40-Mile Air|   \N|  Q5| MLA|      MILE-AIR| United States|     Y|
+ |        11|              4D Air|   \N|null| QRT|       QUARTET|      Thailand|     N|
+ |        12|611897 Alberta Li...|   \N|null| THD|         DONUT|        Canada|     N|
+ |        13|    Ansett Australia|   \N|  AN| AAA|        ANSETT|     Australia|     Y|
+ |        14|Abacus International|   \N|  1B|null|          null|     Singapore|     Y|
+ |        15|     Abelag Aviation|   \N|  W9| AAB|           ABG|       Belgium|     N|
+ |        16|      Army Air Corps|   \N|null| AAC|       ARMYAIR|United Kingdom|     N|
+ |        17|Aero Aviation Cen...|   \N|null| AAD|       SUNRISE|        Canada|     N|
+ |        18|Aero Servicios Ej...|   \N|null| SII|        ASEISA|        Mexico|     N|
+ |        19|         Aero Biniza|   \N|null| BZS|        BINIZA|        Mexico|     N|
+ +----------+--------------------+-----+----+----+--------------+--------------+------+

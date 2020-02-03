@@ -1,4 +1,4 @@
-package com.alex.opianalitycs
+package com.alex.opianalytics
 
 import org.apache.spark.sql.{SparkSession, DataFrame}
 import org.apache.spark.sql.functions._
